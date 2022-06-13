@@ -4,13 +4,13 @@ import NavItem from './NavItem'
 const Navigation = () => {
   return (
     <div className='flex justify-end pr-14'>
-      <NavItem>HOME</NavItem>
-      <NavItem>CS:GO</NavItem>
-      <NavItem>DOTA 2</NavItem>
-      <NavItem>LOL</NavItem>
-      <NavItem>WoT</NavItem>
-      <NavItem>KONTAKT</NavItem>
-      <NavItem>O NAS</NavItem>
+      <NavItem link='/'>HOME</NavItem>
+      <NavItem link='/csgo'>CS:GO</NavItem>
+      <NavItem link='/dota2'>DOTA 2</NavItem>
+      <NavItem link='/leagueoflegends'>LOL</NavItem>
+      <NavItem link='/worldoftanks'>WoT</NavItem>
+      <NavItem link='/kontakt'>KONTAKT</NavItem>
+      <NavItem link='/about'>O NAS</NavItem>
     </div>
   )
 }
