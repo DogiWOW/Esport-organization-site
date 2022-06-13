@@ -31,4 +31,8 @@
 		background-size: 100% 5px;
 		background-position: 0 90%
 	}
+
+	.header-font {
+		@apply text-yellow-600 font-bold textshadow;
+	}
 }

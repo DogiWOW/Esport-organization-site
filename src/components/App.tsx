@@ -1,9 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Switch, Route, BrowserRouter, Router, Routes, Outlet } from "react-router-dom"; 
-import Page from './Page';
+import { Outlet } from "react-router-dom"; 
 import Navigation from './Navigation';
 import Logo from './Logo';
-import Footer from './Footer';
 
 function App() {
   return (
@@ -14,7 +12,6 @@ function App() {
           <Navigation />
         </div>
         <Outlet />
-        <Footer />
       </div>
   );
 }
