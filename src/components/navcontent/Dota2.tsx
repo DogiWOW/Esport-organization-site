@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaBeer } from 'react-icons/fa';
 import Sectionimage from '../Sectionimage'
 import imagedota2 from '../../images/dota2.jpg'
 
