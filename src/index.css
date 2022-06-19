@@ -27,12 +27,26 @@
 		background-image: linear-gradient(transparent, transparent), linear-gradient(rgb(190 18 57), rgb(190 18 57))
 	}
 
-	.link-underline:hover {
+	.link-underline:hover{
 		background-size: 100% 5px;
-		background-position: 0 90%
 	}
 
 	.header-font {
 		@apply text-yellow-600 font-bold textshadow;
+	}
+
+	.navLink {
+		@apply link-underline link-underline-black hover:text-red-500 whitespace-nowrap italic pb-3 cursor-pointer header-font;
+	}
+
+	.navlink-active{
+		border-bottom-width: 0;
+		background-image: linear-gradient(transparent, transparent), linear-gradient(rgb(190 18 57), rgb(190 18 57));
+		background-size: 100% 5px;
+		background-position: 0 90%;
+		background-repeat: no-repeat;
+        border-radius: 25%;
+		transition: background-size .5s ease-in-out;
+		@apply text-red-500 whitespace-nowrap italic pb-3 cursor-pointer header-font
 	}
 }
