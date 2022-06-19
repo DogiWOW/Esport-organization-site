@@ -1,10 +1,10 @@
 import React from 'react'
-import logo from '../images/Logo.jpg'
+import logo from '../images/logo.png'
 
 const Logo = () => {
   return (
-    <div className='flex justify-left pt-10 pl-10'>
-        <img src={logo} alt="logo" className='logo-size rounded-full'/>
+    <div className='flex'>
+        <img src={logo} alt="logo" className='w-6/12 block ml-auto mr-auto pt-5'/>
     </div>
   )
 }

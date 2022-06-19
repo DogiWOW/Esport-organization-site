@@ -2,7 +2,7 @@ import React from 'react'
 
 const Kontakt = () => {
   return (
-    <div className='flex align-middle justify-center'>
+    <div className='h-4/5 flex items-center justify-center'>
         <div className='flex flex-col justify-center items-center bg-black bg-opacity-60 rounded-xl w-2/5 h-72'>
             <div className=''>
                 <p className='py-5'>Email: loremipsumdolor@lorem.com</p>

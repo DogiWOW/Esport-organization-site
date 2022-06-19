@@ -15,6 +15,7 @@ module.exports = {
       'blaka': 'Blaka, cursive',
       'fascinate': 'Fascinate Inline, cursive',
       'nunito': 'Nunito, sans-serif',
+      'georgia': "Georgia",
     },
     extend: {
     },

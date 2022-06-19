@@ -9,6 +9,7 @@ import Dota2 from './components/navcontent/Dota2';
 import Lol from './components/navcontent/Lol';
 import Wot from './components/navcontent/Wot';
 import Kontakt from './components/navcontent/Kontakt';
+import About from './components/navcontent/About';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -23,7 +24,7 @@ root.render(
         <Route path="/leagueoflegends" element={<Lol />} />
         <Route path="/worldoftanks" element={<Wot />} />
         <Route path="/kontakt" element={<Kontakt />} />
-        <Route path="/about" element={'about'} />
+        <Route path="/about" element={<About />} />
       </Route>
     </Routes>
     </BrowserRouter>

@@ -5,9 +5,8 @@ import Logo from './Logo';
 
 function App() {
   return (
-    
-     <div className='h-full'>
-        <div className='grid grid-cols-4'>
+     <div className='flex-col h-screen'>
+        <div className='h-1/5 grid grid-cols-4'>
           <Logo />
           <Navigation />
         </div>
