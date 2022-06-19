@@ -2,12 +2,15 @@ import React from 'react'
 
 const Kontakt = () => {
   return (
-    <div className='h-4/5 flex items-center justify-center'>
-        <div className='flex flex-col justify-center items-center bg-black bg-opacity-60 rounded-xl w-2/5 h-72'>
-            <div className=''>
-                <p className='py-5'>Email: loremipsumdolor@lorem.com</p>
-                <p className='py-5'><a href='https://www.facebook.com/groups/1634961666903617' target='_blank'>Facebook: https://www.facebook.com/groups/1634961666903617</a></p>
-                <p className='py-5'>Telefon: +48 321 123 321</p>
+    <div className='section'>
+        <div className='w-screen justify-center items-center border'>
+            <div className='text-center break-words overflow-hidden'>
+                <p className='pt-5'>Email</p>
+                <p className='py-2'>loremipsumdolor@lorem.com</p>
+                <p className='pt-5'>Facebook: </p>
+                <p className='py-2'><a href='https://www.facebook.com/groups/1634961666903617' target='_blank'>https://www.facebook.com/groups/1634961666903617</a></p>
+                <p className='pt-5'>Telefon:</p>
+                <p className='py-2'>+48 321 123 321</p>
             </div>
         </div>
     </div>

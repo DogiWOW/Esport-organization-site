@@ -4,7 +4,7 @@ import Sectionimage from '../Sectionimage'
 
 const Csgo = () => {
   return (
-    <div>
+    <div className='section'>
         <Sectionimage src={imagecsgo}/>
     </div>
   )

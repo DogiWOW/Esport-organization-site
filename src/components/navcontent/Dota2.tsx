@@ -5,7 +5,7 @@ import imagedota2 from '../../images/dota2.jpg'
 
 const Dota2 = () => {
   return (
-    <div className='grow'>
+    <div className='section'>
         <Sectionimage src={imagedota2}/>
     </div>
   )

@@ -4,7 +4,7 @@ import imagewot from '../../images/wot.jpg'
 
 const Wot = () => {
   return (
-    <div>
+    <div className='section'>
         <Sectionimage src={imagewot}/>
     </div>
   )

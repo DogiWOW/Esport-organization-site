@@ -4,7 +4,7 @@ import imagelol from '../../images/lol.jpg'
 
 const Lol = () => {
   return (
-    <div>
+    <div className='section'>
         <Sectionimage src={imagelol}/>
     </div>
   )
