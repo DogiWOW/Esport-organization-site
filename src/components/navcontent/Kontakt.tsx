@@ -3,7 +3,7 @@ import React from 'react'
 const Kontakt = () => {
   return (
     <div className='section'>
-        <div className='w-screen justify-center items-center border'>
+        <div className='w-screen justify-center items-center'>
             <div className='text-center break-words overflow-hidden'>
                 <p className='pt-5'>Email</p>
                 <p className='py-2'>loremipsumdolor@lorem.com</p>
