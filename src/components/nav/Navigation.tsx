@@ -32,6 +32,10 @@ const Navigation = (props:any) => {
     }
   }, [setWindowSize]);
 
+  useEffect(() => {
+    mobileMenu ? document.body.classList.add('overflow-hidden') : document.body.classList.remove('overflow-hidden')
+  },[mobileMenu])
+
   return (
     <>
       <div className='lg:flex lg:justify-around mr-10 overflow-hidden col-span-3 font-rightous hidden md:visible'>
