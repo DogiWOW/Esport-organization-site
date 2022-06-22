@@ -13,10 +13,6 @@
 		background-position: center;
 	}
 
-	body{
-		overflow: hidden;
-	}
-
     .textshadow {
         text-shadow: -2px -2px 0 #FFF, 2px -2px 0 #FFF, -2px 2px 0 #FFF, 2px 2px 0 #FFF;
     }
