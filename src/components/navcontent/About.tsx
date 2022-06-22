@@ -3,9 +3,9 @@ import React from 'react'
 const About = () => {
   return (
     <div className='section'>
-        <div className='w-2/3 text-white flex flex-col gap-5'>
+        <div className='w-4/5 text-white flex flex-col gap-5'>
             <h1 className='text-center font-rightous text-blue-200 text-4xl md:text-6xl'>LucidDreamers</h1>
-            <span className='sm:text-base md:text-lg flex flex-col gap-5'>
+            <span className='sm:text-base md:text-lg flex flex-col gap-5 overflow-auto'>
               <p>Jesteśmy nowo powstałą organizacją która powstała na potrzeby graczy.</p>
               <p>Chcemy szukać i rozwijać młode talenty na Polskiej scenie eSportu.</p>
               <p>Będziemy starali się krok po kroku dążyć do doskonalenia swoich umiejętności.</p>

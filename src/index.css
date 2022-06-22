@@ -5,9 +5,25 @@
 @tailwind utilities;
 
 @layer components {
+	html{
+		background-image: url('../src/images/esports-bg3-v3.png'), radial-gradient(rgb(14 116 144), rgb(75 85 99));
+		background-repeat: no-repeat;
+		background-size: 100% 100%, 100% 100%;
+		background-attachment: fixed;
+		background-position: center;
+	}
+
+	body{
+		overflow: hidden;
+	}
+
     .textshadow {
         text-shadow: -2px -2px 0 #FFF, 2px -2px 0 #FFF, -2px 2px 0 #FFF, 2px 2px 0 #FFF;
     }
+
+	.menu{
+		@apply z-10 text-6xl top-10 absolute lg:invisible md:visible right-10;
+	}
 
     .logo-size{
         height: 200px;
@@ -32,7 +48,7 @@
 	}
 
 	.section {
-		@apply h-4/5 w-full flex items-center justify-center;
+		@apply h-fit w-full flex items-center justify-center px-5;
 	}
 
 	.header-font {
