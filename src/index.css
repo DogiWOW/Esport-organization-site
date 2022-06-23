@@ -9,10 +9,16 @@
 		background-image: url('../src/images/esports-bg3-v3.png'), radial-gradient(rgb(14 116 144), rgb(75 85 99));
 		background-repeat: no-repeat;
 		background-size: 100% 100%, 100% 100%;
-		background-attachment: fixed;
+		background-attachment: scroll;
 		background-position: center;
+		min-height: 100%;
 	}
 
+	@media only screen and (max-device-width: 1336px) {
+		html{
+			background-attachment: scroll;
+		}
+	}
 	body{
 		overscroll-behavior: none;
 	}
