@@ -1,11 +1,12 @@
 import React from 'react'
 import imagecsgo from '../../images/csgo.jpg'
 import Sectionimage from '../Sectionimage'
+import Playercards from './Playercards'
 
 const Csgo = () => {
   return (
     <div className='section'>
-        <Sectionimage src={imagecsgo}/>
+      <Playercards />
     </div>
   )
 }
