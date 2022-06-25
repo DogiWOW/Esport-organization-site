@@ -11,20 +11,20 @@ Site will contain the following sections
 
 - News that recently happend relating our organization or e-sports
 
-### Games tabs: e.g. CSGO, DOTA2, LOL
+### CSGO, DOTA2, LOL, WOT
 
 - Our players and basic information about them
 - Detailed information about each of the players
 - News relating respective games team
 
-### Kontakt
+### Contact us
 
-- information how to contact us
-- form for asking us questions
+- Information how to contact us
+- Form for asking us questions
 
-### O nas
+### About
 
-- information about our organization and our future plans
+- Information about our organization and our future plans
 
 ## Available Scripts
 
@@ -49,9 +49,9 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 Pull requests are welcome. Please open an issue for major changes.
 
-## Licesnse
+## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[Creative Commons Attribution-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nd/4.0/)
 
 
 
