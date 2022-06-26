@@ -6,14 +6,19 @@
 
 @layer components {
 	body{
-		background-image: url('../src/images/esports-bg3-v3.png'), radial-gradient(rgb(14 116 144), rgb(75 85 99));
+		background-image: url('../src/images/esports-bg3-v3.png');
 		background-repeat: no-repeat;
-		background-size: 100% 100%, 100% 200%;
+		background-size: 100% 100%;
 		background-attachment: fixed;
 		min-height: 100%;
+		overscroll-behavior: none;
 	}
 	
-	body{
+	.bg-playercard{
+		background-image: url('../src/images/playercardbg.jpg');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		min-height: 100%;
 		overscroll-behavior: none;
 	}
 
@@ -22,7 +27,7 @@
     }
 
 	.menu{
-		@apply z-10 text-6xl top-10 absolute lg:invisible md:visible right-10;
+		@apply text-6xl top-10 absolute lg:invisible md:visible right-10;
 	}
 
     .logo-size{
@@ -48,7 +53,7 @@
 	}
 
 	.section {
-		@apply h-fit w-full flex items-center justify-center px-5 pb-40;
+		@apply flex items-center justify-center px-5 pb-40;
 	}
 
 	.header-font {

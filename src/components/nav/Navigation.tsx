@@ -45,8 +45,8 @@ const Navigation = (props:any) => {
         <HiMenu />
       </div>
       {(windowSize.width < 1024 && mobileMenu) &&
-        <div className='w-screen h-screen fixed bg-black bg-opacity-50'>
-          <div onClick={menuSwitch} className='z-50 text-6xl top-10 right-10 absolute lg:invisible md:visible'>
+        <div className='z-50 w-screen h-screen fixed bg-black bg-opacity-50'>
+          <div onClick={menuSwitch} className='text-6xl top-10 right-10 fixed lg:invisible md:visible'>
             <HiMenu />
           </div>
           <div className='flex text-center fixed w-screen h-screen items-center justify-center overflow-auto font-rightous'>

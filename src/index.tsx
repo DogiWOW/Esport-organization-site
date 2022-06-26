@@ -8,7 +8,7 @@ import Csgo from './components/navcontent/Csgo';
 import Dota2 from './components/navcontent/Dota2';
 import Lol from './components/navcontent/Lol';
 import Wot from './components/navcontent/Wot';
-import Kontakt from './components/navcontent/Kontakt';
+import Kontakt from './components/navcontent/ContactUs';
 import About from './components/navcontent/About';
 
 const root = ReactDOM.createRoot(
