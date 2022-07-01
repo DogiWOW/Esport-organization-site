@@ -4,12 +4,12 @@ import './index.css';
 import App from './components/App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Csgo from './components/navcontent/Csgo';
-import Dota2 from './components/navcontent/Dota2';
-import Lol from './components/navcontent/Lol';
-import Wot from './components/navcontent/Wot';
-import Kontakt from './components/navcontent/ContactUs';
-import About from './components/navcontent/About';
+import Csgo from './components/Sections/Csgo/Csgo';
+import Dota2 from './components/Sections/Dota2/Dota2';
+import Lol from './components/Sections/Lol/Lol';
+import Wot from './components/Sections/Wot/Wot';
+import Kontakt from './components/Sections/ContactUs/ContactUs';
+import About from './components/Sections/About/About';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

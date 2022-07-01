@@ -1,7 +1,5 @@
 import React from 'react'
-import imagecsgo from '../../images/csgo.jpg'
-import Sectionimage from '../Sectionimage'
-import Playercards from './Playercards'
+import Playercards from '../../Players/Playercards/Playercards'
 
 const Csgo = () => {
   return (

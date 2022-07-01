@@ -1,6 +1,6 @@
 import React from 'react'
-import Sectionimage from '../Sectionimage'
-import imagelol from '../../images/lol.jpg'
+import Sectionimage from '../../Sectionimage'
+import imagelol from '../../../images/lol.jpg'
 
 const Lol = () => {
   return (

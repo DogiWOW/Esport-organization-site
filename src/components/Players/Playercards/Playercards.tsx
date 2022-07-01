@@ -1,10 +1,10 @@
 import React from 'react'
-import Playercard from './Playercard'
-import ak1nash1 from '../../images/players/csgo/ak1nash1.png'
-import JaykeS from '../../images/players/csgo/JaykeS.png'
-import sh1den_ from '../../images/players/csgo/sh1den_.png'
-import Szuti from '../../images/players/csgo/Szuti.png'
-import zeusnity from '../../images/players/csgo/zeusnity.png'
+import Playercard from '../Playercard/Playercard'
+import ak1nash1 from '../../../images/players/csgo/ak1nash1.png'
+import JaykeS from '../../../images/players/csgo/JaykeS.png'
+import sh1den_ from '../../../images/players/csgo/sh1den_.png'
+import Szuti from '../../../images/players/csgo/Szuti.png'
+import zeusnity from '../../../images/players/csgo/zeusnity.png'
 
 const Playercards = () => {
   return (

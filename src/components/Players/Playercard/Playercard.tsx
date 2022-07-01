@@ -1,5 +1,5 @@
 import React from 'react'
-import { PlayercardProps } from '../../interfaces/interfaces'
+import { PlayercardProps } from '../../../interfaces/interfaces'
 
 const Playercard = ({image, nickname, position}:PlayercardProps) => {
   return (

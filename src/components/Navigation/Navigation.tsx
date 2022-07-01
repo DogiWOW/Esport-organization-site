@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import NavItem from './NavItem'
 import { HiMenu } from 'react-icons/hi'
 import NavItems from './NavItems';
 
