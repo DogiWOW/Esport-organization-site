@@ -30,10 +30,6 @@
 		@apply text-6xl top-10 absolute lg:invisible md:visible right-10;
 	}
 
-    .logo-size{
-        height: 200px;
-    }
-
     .link-underline {
 		border-bottom-width: 0;
 		background-image: linear-gradient(transparent, transparent), linear-gradient(rgb(190 18 57), rgb(190 18 57));
@@ -57,7 +53,7 @@
 	}
 
 	.header-font {
-		@apply text-emerald-600 font-bold textshadow;
+		@apply text-[#829CA9] font-bold textshadow;
 	}
 
 	.navLink {

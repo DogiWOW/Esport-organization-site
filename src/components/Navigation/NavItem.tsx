@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 const NavItem = (props:any) => {
   return (
-        <div className='mx-auto pt-10 text-3xl'>
+        <div className='text-3xl flex items-center'>
             <div className=''>
                 <NavLink to={props.link} className={({ isActive }) => (isActive ? 'navlink-active' : 'navLink')}>
                     {props.children}

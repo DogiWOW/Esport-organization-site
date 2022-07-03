@@ -3,8 +3,8 @@ import logo from '../images/logo.png'
 
 const Logo = () => {
   return (
-    <div className='flex'>
-        <img src={logo} alt="logo" className='min-w-fit w-6/12 block ml-auto mr-auto pl-5 pt-5'/>
+    <div className='pl-20 w-2/12'>
+        <img src={logo} alt="logo" className='min-w-[100px] w-[100px]'/>
     </div>
   )
 }

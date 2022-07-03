@@ -8,7 +8,7 @@ import zeusnity from '../../../images/players/csgo/zeusnity.png'
 
 const Playercards = () => {
   return (
-    <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-40 justify-items-center mx-16'>
+    <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-36 justify-items-center'>
         <Playercard image={sh1den_} nickname='Oliwier "sh1den_" S.' position='In Game Leader'/>
         <Playercard image={ak1nash1} nickname='Grzegorz "ak1nash1" B.' position='AWP'/>
         <Playercard image={JaykeS} nickname='Jakub "JaykeS" Ś.' position='Entry, Rifler'/>
