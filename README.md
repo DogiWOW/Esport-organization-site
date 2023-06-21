@@ -1,4 +1,4 @@
-# LucidDreamers Multigaming Organization
+# LucidDreamers Esports Organization
 
 LucidDreamers is an newly created organization that helps young aspiring players start their e-sports career. Website will contain
 several sections that helps the user have a basic understanding what's our organization about and what players we've took under our wings. 
@@ -48,7 +48,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 ## License
 
-[Creative Commons Attribution-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nd/4.0/)
+MIT
 
 
 
