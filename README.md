@@ -3,6 +3,8 @@
 LucidDreamers is an newly created organization that helps young aspiring players start their e-sports career. Website will contain
 several sections that helps the user have a basic understanding what's our organization about and what players we've took under our wings. 
 
+Site URL: https://luciddreamers-433c9.web.app
+
 ## Sections
 
 Site will contain the following sections
