@@ -1,32 +1,28 @@
-# LucidDreamers Esports Organization
+# LucidDreamers
 
-LucidDreamers is an newly created organization that helps young aspiring players start their e-sports career. Website will contain
-several sections that helps the user have a basic understanding what's our organization about and what players we've took under our wings. 
+Mockup site for training purposes
 
 Site URL: https://luciddreamers-433c9.web.app
 
 ## Sections
 
-Site will contain the following sections
+Site contains the following sections
 
 ### Home
 
-- News that recently happend relating our organization or e-sports
+- Blank for now
 
-### CSGO, DOTA2, LOL, WOT
+### CSGO
 
-- Our players and basic information about them
-- Detailed information about each of the players
-- News relating respective games team
+- players and basic information about them
 
 ### Contact us
 
-- Information how to contact us
-- Form for asking us questions
+- conctact information
 
 ### About
 
-- Information about our organization and our future plans
+- Information about the organization
 
 ## Available Scripts
 
